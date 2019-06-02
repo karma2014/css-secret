@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #test1 {
+            width: 50px;
+            height: 50px;
+            background: purple;
+            border-top: 50px solid red;
+            border-bottom: 50px solid green;
+            border-left: 50px solid blue;
+            border-right: 50px solid yellow;
+        }
+
+        #test2 {
+            width: 50px;
+            height: 50px;
+            background: transparent;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid #d71345;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+        }
+
+        #test3 {
+            width: 0;
+            height: 0;
+            display: inline-block;
+            background: transparent;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid #fcaf17;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+        }
+
+        #triangle1 {
+            width: 0;
+            height: 0;
+            background: transparent;
+            border-top: 50px solid transparent;
+            border-bottom: 50px solid #00ae9d;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+        }
+
+        #triangle2 {
+            width: 0;
+            height: 0;
+            background: transparent;
+            border-top: 50px solid #009ad6;
+            border-bottom: 50px solid transparent;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+        }
+
+        #circle {
+            width: 100px;
+            height: 100px;
+            background: #f05b72;
+            border-radius: 50px;
+        }
+
+        #ellipse {
+            width: 100px;
+            height: 50px;
+            background: #f47920;
+            border-radius: 50px / 25px;
+        }
+
+        .test1 {
+            width: 300px;
+            height: 30px;
+            padding: 30px 20px;
+            margin-left: 100px;
+            background: #ffe600;
+            position: relative;
+        }
+
+        .test1 div {
+            width: 0;
+            height: 0;
+            position: absolute;
+        }
+
+        .test1 .bot {
+            border-width: 20px;
+            border-style: solid;
+            border-color: #ffffff #ffe600 #ffe600 #ffffff;
+            left: -40px;
+            top: 40px;
+        }
+
+        .test1 .top {
+            border-width: 10px 20px;
+            border-style: solid;
+            border-color: transparent #ffffff #ffffff transparent;
+            left: -40px;
+            top: 60px;
+        }
+
+        .test2 {
+            width: 300px;
+            padding: 30px 20px;
+            border: 5px solid #beceeb;
+            position: relative;
+        }
+
+        .test2 div {
+            width: 0;
+            height: 0;
+            font-size: 0;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .test2 div.bot {
+            border-width: 20px;
+            border-style: solid dashed dashed;
+            border-color: #beceeb transparent transparent;
+            left: 80px;
+            bottom: -40px;
+        }
+
+        .test2 div.top {
+            border-width: 20px;
+            border-style: solid dashed dashed;
+            border-color: #ffffff transparent transparent;
+            left: 80px;
+            bottom: -33px;
+        }
+
+        .test3 {
+            width: 300px;
+            height: 30px;
+            border-radius: 160px/45px;
+            padding: 30px 20px;
+            margin-left: 100px;
+            background: #eb7956;
+            position: relative;
+        }
+
+        .test3 div {
+            width: 0;
+            height: 0;
+            position: absolute;
+        }
+
+        .test3 .bot {
+            border-width: 20px;
+            border-style: solid;
+            border-color: transparent #eb7956 #eb7956 transparent;
+            left: -30px;
+            top: 40px;
+        }
+
+        .test3 .top {
+            border-width: 10px 20px;
+            border-style: solid;
+            border-color: transparent #ffffff #ffffff transparent;
+            left: -30px;
+            top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="test1"></div>
+    <div id="test2"></div>
+    <div id="test3"></div>
+    <div id="triangle1"></div>
+    <div id="triangle2"></div>
+    <div id="circle"></div>
+    <div id="ellipse"></div>
+    <div class="test1">
+        <div class="bot">&nbsp;</div>
+        <div class="top">&nbsp;</div>
+        CSS实现对话框效果一
+    </div>
+    <div class="test2">
+        <div class="bot"></div>
+        <div class="top"></div>
+        CSS实现对话框效果二
+    </div>
+    <div class="test3">
+        <div class="bot">&nbsp;</div>
+        <div class="top">&nbsp;</div>
+        CSS实现对话框效果三
+    </div>
+</body>
+
+</html>
