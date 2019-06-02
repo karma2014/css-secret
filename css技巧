@@ -1,0 +1,50 @@
+1、垂直水平居中
+
+水平居中
+行内元素: text-align: center
+块级元素: margin: 0 auto
+absolute + transform
+flex + justify-content: center
+垂直居中
+line-height: height
+absolute + transform
+flex + align-items: center
+table
+水平垂直居中
+absolute + transform
+flex + justify-content + align-items
+2、div设置边框
+必须设置设置div宽度、边框宽度、类型和颜色缺一不可
+border-color:#99bbff;
+border-style:solid;
+width:985px;
+border-width:1px;
+3、两个div并排
+法一：display:inline;
+
+法二：将最大的容器padding-left固定宽度，左边的固定宽度的一块position:absolute，然后right的一块width为百分百；使用position:absolute。
+
+4、input、select高度一致解决办法
+
+vertical-align:middle;
+
+-----------------------------------------------------------------------------
+
+2018.3.14更新
+
+5、img如果设置了href，但图片未找到，可以设置onerror="this.style='display:none'"这样即便找不到图片，也会不显示那个未找到图片的标志
+
+-----------------------------------------------------------------------------
+
+2019.6.2更新
+
+6、在表格table的td中多张图片重叠摆放时，相邻的图片之间有空隙，这时可以在css文件中
+
+img{display:block;} 
+
+完美解决图片之间的空隙问题。
+--------------------- 
+作者：CoolSummmer 
+来源：CSDN 
+原文：https://blog.csdn.net/u014744118/article/details/69810354 
+版权声明：本文为博主原创文章，转载请附上博文链接！
