@@ -43,8 +43,39 @@ vertical-align:middle;
 img{display:block;} 
 
 完美解决图片之间的空隙问题。
---------------------- 
-作者：CoolSummmer 
-来源：CSDN 
-原文：https://blog.csdn.net/u014744118/article/details/69810354 
-版权声明：本文为博主原创文章，转载请附上博文链接！
+
+7、文字定长显示，多余部分显示。。。
+
+height: 130px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+width: 100px;
+display:inline-block;
+8、数据显示错误常用模板
+
+ font-family: 'verdana', 'SimSun';
+ display: inline-block;
+ font-size: 12px;
+ color: #ccc;
+ text-indent: 0;
+ margin: auto;
+ text-align: center;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: 50px;
+ line-height: 20px;
+
+
+
+9、可以通过设置box-shadow设置输入框的样式___________
+
+box-shadow: 0 -1px 0 0 #4782C9 inset;
+
+10、设置a中的href="javascript:void(0)"来给要点击的位置添加手型样式
+
+11、设置label中的for属性给label中的内容添加可点击，样式为for="'+对应的多选框的id+'"
+
+待更新。。。
